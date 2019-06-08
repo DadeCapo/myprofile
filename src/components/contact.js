@@ -11,7 +11,7 @@ class Contact extends Component{
             <img
               src={require('./sideblack.jpeg')}
               alt="avatar"
-              style={{height: '250px'}}
+              style={{height: '250px', borderRadius:'75px'}}
             />
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>I am originally born in Venezuela and moved to Miami when I was in elementary school. I grew a passion for football so I earned a scholarship to play for Hanover College in Hanover Indiana. I later moved to Charlotte North Carolina and eventually worked my way back to Miami. I have always worked sales but have had a passion for technology since my younger days. I was lucky enough to find Wyncode Academy and now I am able to use the skills I learned there to create things and really take my skills in Software Developtment to the next level.</p>
           </Cell>
@@ -33,14 +33,6 @@ class Contact extends Component{
                     dadecapo@hotmail.com
                   </ListItemContent>
                 </ListItem>
-
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-link" aria-hidden="true"/>
-                    <a href="ourdigitaluniverse.com">Our Digital Universe</a>
-                  </ListItemContent>
-                </ListItem>
-
               </List>
             </div>
           </Cell>

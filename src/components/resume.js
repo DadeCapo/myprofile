@@ -20,9 +20,9 @@ class Resume extends Component{
 
             <h1 style={{paddingTop: '2em'}}>Simon Choren</h1>
             <h4 style={{color: 'red'}}>Programmer</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid #3f51b5', width: '50%'}}/>
             <p>As a full-stack web developer I'm skilled at creating solutions. Comfortable working with small teams and large organizations. Innovative project manager and developer with experience in business management and end to end product fulfillment. Seeking opportunities in a rapidly growing environment. I'm always up for a challenge. Great at building relationships with employees across all levels of an organization. Focused on developing and adjusting to business needs and always remaining a student.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid #3f51b5', width: '50%'}}/>
             <h5>Address</h5>
             <p>Miami, Fl 33190</p>
             <h5>Phone</h5>
@@ -31,7 +31,7 @@ class Resume extends Component{
             <p>DadeCapo@hotmail.com</p>
             <h5>Web</h5>
             <p>www.simonillo.com</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid #3f51b5', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -49,7 +49,7 @@ class Resume extends Component{
                 schoolName="Wyncode Academy"
                 schoolDescription="Full Stack Coding Bootcamp"
                 />
-                <hr style={{borderTop: '3px solid #e22947'}} />
+                <hr style={{borderTop: '3px solid white'}} />
               <h2>Experience</h2>
 
             <Experience
@@ -76,7 +76,7 @@ class Resume extends Component{
               jobName="Kennametal Inc • Account Manager"
               jobDescription="• Kept records of Volkswagen monthly purchase orders for their tooling and turning equipment • Communicated through email/phone with clients from small businesses to large corporations in order to maintain a great relationship • Worked on SAP to handle all customer accounts preparing daily, weekly, and monthly reports of purchases and contracts"
             />
-            <hr style={{borderTop: '3px solid #e22947'}} />
+            <hr style={{borderTop: '3px solid white'}} />
             <h2>Skills</h2>
             <Skills
               skill="HTML/CSS"
