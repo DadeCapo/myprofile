@@ -13,24 +13,25 @@ class Landing extends Component{
               className="logo-image"
             />
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
 
-              <hr/>
+              <h1 className="w3-animate-fading">Full Stack Web Developer</h1>
 
-              <p>HTML/CSS | Javascript | React | Ruby on Rails | Wix | GitHub | </p>
+              <hr className="w3-animate-fading"/>
+
+              <p className="w3-animate-fading" >HTML/CSS | Javascript | React | Ruby on Rails | Wix | GitHub | </p>
 
               <div className="social-links">
                 <a href="https://www.linkedin.com/in/simonchoren/" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                  <i className="fa fa-linkedin-square w3-animate-fading" aria-hidden="true"/>
                 </a>
                 <a href="https://github.com/DadeCapo" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  <i className="fa fa-github-square w3-animate-fading" aria-hidden="true"/>
                 </a>
                 <a href="https://www.instagram.com/dadecapo/" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-instagram"></i>
+                  <i className="fa fa-instagram w3-animate-fading"/>
                 </a>
                 <a href="https://www.facebook.com/ForexCapito" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-facebook-square"></i>
+                  <i className="fa fa-facebook-square w3-animate-fading"/>
                 </a>
               </div>
             </div>
